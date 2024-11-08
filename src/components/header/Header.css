@@ -1,0 +1,39 @@
+/* src/components/Header.css */
+.header {
+  background-color: #282c34;
+  padding: inherit;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+  
+  .header h1 {
+    margin: auto;
+    margin-left: -950px;
+    color: bisque;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left: 900px;
+  }
+  
+  .header nav li {
+    margin-left: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .header nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header nav a:hover {
+    text-decoration: underline;
+  }
+  
