@@ -1,9 +1,16 @@
 import React from 'react';
-// import './Home.css';
-const Home = () => (
-  <div className='home'>
-    <h1>ưelcodadfsdfsf</h1>
-  </div>
-);
+import AppRoutes from '../../router/AppRoutes';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 
-export default Home;
+function Layout(props) {
+  return (
+    <div>
+      <Header />
+      <AppRoutes />
+      <Footer />
+    </div>
+  );
+}
+
+export default Layout;

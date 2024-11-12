@@ -1,15 +1,16 @@
-import React from 'react'
-import AppRoutes from '../../router/AppRoutes'
-import Footer from '../footer/Footer'
-import Header from '../header/Header'
-function Layout() {
+import React from 'react';
+import AppRoutes from '../../router/AppRoutes';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+
+function Layout(props) {
   return (
-      <div>
-        <Header />
-        <AppRoutes />
-        <Footer />  {/* Add the footer component here */}
-      </div>
-  )
+    <div>
+      <Header />
+      <AppRoutes />
+      <Footer />
+    </div>
+  );
 }
 
-export default Layout
+export default Layout;

@@ -10,7 +10,7 @@
   }
   
   .header h1 {
-    margin: auto;
+    margin: 0 auto;
     margin-left: -950px;
     color: bisque;
   }
